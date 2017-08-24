@@ -126,8 +126,9 @@ p {
 }
 
 #navID{
-
-  display: inline-block;
+  margin-bottom: 8px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 .intro {
@@ -355,6 +356,51 @@ width:110px;
 	line-height:35px;
 	color:#221919;
 }
+
+.html5-skillbar-title{
+  background: #d35400;
+}
+.html5-skillbar-bar{
+  background: #e67e22;
+}
+.css3-skillbar-title{
+  background: #2980b9;
+}
+.css3-skillbar-bar{
+  background: #3498db;
+}
+.jquery-skillbar-title{
+  background: #2c3e50;
+}
+.jquery-skillbar-bar{
+  background: #2c3e50;
+}
+.php-skillbar-title{
+  background: #46465e;
+}
+.php-skillbar-bar{
+  background: #5a68a5;
+}
+.sql-skillbar-title{
+  background: #27ae60;
+}
+.sql-skillbar-bar{
+  background: #2ecc71;
+}
+.bootstrap-skillbar-title{
+ background: #6A0000;
+}
+.bootstrap-skillbar-bar{
+ background: #B20000;
+}
+.javascript-skillbar-title{
+ background: #124e8c;
+}
+.javascript-skillbar-bar{
+ background: #4288d0;
+}
+
+/*----------------End of Skill baar---*/
 
 .logo{
   border-radius: 50%;

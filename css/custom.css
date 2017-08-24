@@ -1,4 +1,3 @@
-
 body {
     width: 100%;
     height: 100%;
@@ -38,9 +37,6 @@ p {
         line-height: 1.6;
     }
 }
-
-
-
 
 .light {
     font-weight: 400;
@@ -174,9 +170,6 @@ p {
     }
 }
 
-
-
-
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
@@ -215,8 +208,6 @@ p {
     padding-top: 100px;
 }
 
-
-
 @media(min-width:767px) {
     .content-section {
         padding-top: 250px;
@@ -229,18 +220,31 @@ p {
       padding-bottom: 250px;
     }
 
-
 }
 
 .fa-twitter{
   color: #00aced;
 }
 
-.email-tooltip + .tooltip > .tooltip-inner {background-color: rgba(21, 29, 35, 0.96); font-size: 15px; font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;}
-.email-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:rgba(21, 29, 35, 0.96); }
+.email-tooltip + .tooltip > .tooltip-inner {
+  background-color: rgba(21, 29, 35, 0.96);
+  font-size: 15px;
+  font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
 
-.twitter-tooltip + .tooltip > .tooltip-inner {background-color: rgba(21, 29, 35, 0.96); font-size: 15px; font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;}
-.twitter-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:rgba(21, 29, 35, 0.96); }
+.email-tooltip + .tooltip > .tooltip-arrow {
+  border-bottom-color:rgba(21, 29, 35, 0.96);
+}
+
+.twitter-tooltip + .tooltip > .tooltip-inner {
+  background-color: rgba(21, 29, 35, 0.96);
+  font-size: 15px;
+  font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.twitter-tooltip + .tooltip > .tooltip-arrow {
+  border-bottom-color:rgba(21, 29, 35, 0.96);
+}
 
 footer {
     padding: 80px 0;
@@ -360,27 +364,35 @@ width:110px;
 .html5-skillbar-title{
   background: #d35400;
 }
+
 .html5-skillbar-bar{
   background: #e67e22;
 }
+
 .css3-skillbar-title{
   background: #2980b9;
 }
+
 .css3-skillbar-bar{
   background: #3498db;
 }
+
 .jquery-skillbar-title{
   background: #2c3e50;
 }
+
 .jquery-skillbar-bar{
   background: #2c3e50;
 }
+
 .php-skillbar-title{
   background: #46465e;
 }
+
 .php-skillbar-bar{
   background: #5a68a5;
 }
+
 .sql-skillbar-title{
   background: #27ae60;
 }
@@ -390,12 +402,15 @@ width:110px;
 .bootstrap-skillbar-title{
  background: #6A0000;
 }
+
 .bootstrap-skillbar-bar{
  background: #B20000;
 }
+
 .javascript-skillbar-title{
  background: #124e8c;
 }
+
 .javascript-skillbar-bar{
  background: #4288d0;
 }
@@ -425,6 +440,7 @@ width:110px;
   font-size: large;
 
 }
+
 @media screen and (max-width:340px) {
 
     .arrow{
@@ -434,20 +450,20 @@ width:110px;
       width: 40px;
     }
 }
+
 @media screen and (min-width:341px) and (max-width:480px) {
 
     .skill-logo{
       width: 50px;
     }
 }
+
 @media screen and (min-width:481px) and (max-width:760px) {
 
     .skill-logo{
       width: 70px;
     }
 }
-
-
 
 ul.arrow li:before{
    content: "\2023 \0020";
